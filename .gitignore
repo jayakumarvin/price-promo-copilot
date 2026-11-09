@@ -1,0 +1,20 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kaggle.json
+
+# environment and generated artifacts
+.venv/
+__pycache__/
+*.pyc
+chroma_db/
+models/
+data/raw/
+data/progress.json
+data/*.log
+*.log
+prep.done
+prep.sh
